@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.version      = '0.1.0'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { "Your Name" => "your.email@example.com" }
+  s.homepage     = 'https://Freechat-Development/zfplayer'
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
   s.source       = { :git => 'https://Freechat-Development/zfplayer.git', :tag => s.version.to_s }
