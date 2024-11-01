@@ -14,9 +14,6 @@ Pod::Spec.new do |spec|
                    A longer description of your library. This can be multiple lines.
                    DESC
   
-  # 指定库的主页（可选）
-  spec.homepage     = "http://EXAMPLE/zfplayer"
-  
   # 库的许可证类型
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   
@@ -24,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.authors      = { "Your Name" => "your.email@example.com" }
   
   # 库的源代码位置
-  spec.source       = { :git => "http://EXAMPLE/zfplayer.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://Freechat-Development/zfplayer.git", :tag => "#{spec.version}" }
   
   # 指定库的 platform，如 :ios, :osx, :watchos, :tvos
   spec.platform     = :ios
